@@ -1,1 +1,4 @@
-from .genetic_algorithm import create_chromosomes
+from .genetic_algorithm import create_chromosomes, tournament_selection
+from .genetic_algorithm import spinning_roulette_wheel_selection, crossover_chromosomes
+from .genetic_algorithm import mutation, genetic_algorithm_tournament_version
+from .genetic_algorithm import genetic_algorithm_spinning_roulette_wheel_version
