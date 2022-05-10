@@ -15,7 +15,7 @@ class Chromosome:
         self.total_weight = None
         self.score = None
         
-    def fitness_assigment(self, max_weight: int, genes_list: List[Gene]) -> None:
+    def fitness_assignment(self, max_weight: int, genes_list: List[Gene]) -> None:
         """Calculates the chromosome's total_weight and the score.
 
         Args:
